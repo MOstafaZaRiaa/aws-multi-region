@@ -2,7 +2,7 @@
 This repository contains the Terraform code to deploy infrastructure on AWS in two different region. It includes creating a VPC with public subnets, launching EC2 instances in the public subnets, Create DynamoDB,Store the state file on s3 bucket.
 
 ## AWS Architecture
-![terraform final task ITI drawio](https://github.com/MOstafaZaRiaa/terraform-iti/blob/main/screens/255c65c5-3438-490f-90ba-b94abc186a8c.jpg)
+![terraform final task ITI drawio](https://github.com/MOstafaZaRiaa/aws-multi-region/blob/main/screens/Architecture%20Digram.png?raw=true)
 
 ## Overview
 This project uses Terraform to create the following AWS resources per region:
