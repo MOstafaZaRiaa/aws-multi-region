@@ -29,12 +29,12 @@ git clone https://github.com/MOstafaZaRiaa/aws-multi-region.git
 ```
 Specify the code 
 ```
-## Per each project
-# File main.tf
+Per each project
+- File main.tf
 1- Region code.
 2- Bucket name for tfstate file.
 3- Dynamo table name to state lock.
-# File terraform.tfvars
+- File terraform.tfvars
 1- AMI image belongs to region you have chosen.
 2- Write instance type that you need.
 3- Write DynamoDB name and key.    
