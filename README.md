@@ -25,12 +25,16 @@ Before running the deployment script, you will need to have the following:
 
 Clone this repository to your local machine.
 ```
-git clone https://github.com/MOstafaZaRiaa/terraform-iti
+git clone https://github.com/MOstafaZaRiaa/aws-multi-region.git
 ```
 Create the 2 workspaces
 ```
 $ terraform workspace new dev
 $ terraform workspace new prod
+```
+Specify the code 
+```
+
 ```
 Run `terraform init` to download the necessary Terraform plugins.
 
@@ -39,5 +43,5 @@ Run `terraform apply` to create the infrastructure.
 ## Final Result
 you can check the look inspect .terraform/terraform.tfstate, you will see that it contains the location of the state file now instead of the actual state file.
 
-![check look on state file](https://github.com/MOstafaZaRiaa/terraform-iti/blob/main/screens/2.PNG)
+![check look on state file](https://github.com/MOstafaZaRiaa/aws-multi-region/blob/main/screens/2.PNG)
 
