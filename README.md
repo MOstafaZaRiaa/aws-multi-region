@@ -27,14 +27,17 @@ Clone this repository to your local machine.
 ```
 git clone https://github.com/MOstafaZaRiaa/aws-multi-region.git
 ```
-Create the 2 workspaces
-```
-$ terraform workspace new dev
-$ terraform workspace new prod
-```
 Specify the code 
 ```
-
+## Per each project
+# File main.tf
+1- Region code.
+2- Bucket name for tfstate file.
+3- Dynamo table name to state lock.
+# File terraform.tfvars
+1- AMI image belongs to region you have chosen.
+2- Write instance type that you need.
+3- Write DynamoDB name and key.    
 ```
 Run `terraform init` to download the necessary Terraform plugins.
 
